@@ -13,6 +13,58 @@ description:         Please see the README on GitHub at <https://github.com/alis
 
 dependencies:
 - base >= 4.7 && < 5
+- relude
+- conduit
+- hspec
+default-extensions:
+# - GHC2021  #Isn't supported yet, so all listed here
+-    BangPatterns
+-    BinaryLiterals
+-    ConstrainedClassMethods
+-    ConstraintKinds
+-    DeriveDataTypeable
+-    DeriveFoldable
+-    DeriveFunctor
+-    DeriveGeneric
+-    DeriveLift
+-    DeriveTraversable
+-    DoAndIfThenElse
+-    EmptyCase
+-    EmptyDataDecls
+-    EmptyDataDeriving
+-    ExistentialQuantification
+-    ExplicitForAll
+-    FlexibleContexts
+-    FlexibleInstances
+-    ForeignFunctionInterface
+-    GADTSyntax
+-    GeneralisedNewtypeDeriving
+-    HexFloatLiterals
+-    ImportQualifiedPost
+-    InstanceSigs
+-    KindSignatures
+-    MonomorphismRestriction
+-    MultiParamTypeClasses
+-    NamedFieldPuns
+-    NamedWildCards
+-    NumericUnderscores
+-    PatternGuards
+-    PolyKinds
+-    PostfixOperators
+-    RankNTypes
+-    RelaxedPolyRec
+-    ScopedTypeVariables
+-    StandaloneDeriving
+-    StandaloneKindSignatures
+-    StarIsType
+-    TraditionalRecordSyntax
+-    TupleSections
+-    TypeApplications
+-    TypeOperators
+-    TypeSynonymInstances
+
+- NoImplicitPrelude
+- OverloadedStrings
 
 ghc-options:
 - -Wall
